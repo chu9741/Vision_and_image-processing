@@ -55,6 +55,7 @@ int main(int argc, const char* argv[])
     Mat F;
 
     dft(f, F, DFT_COMPLEX_OUTPUT);
+    //gaussian: 𝐻(𝑢,𝑣)=(𝛾_𝐻−𝛾_𝐿 )[1−𝑒^(−𝑐[(𝐷^2 (𝑢,𝑣))/(𝐷_0^2 )] ) ]+𝛾_𝐿
     /*
         for (auto y = 0; y < F.rows; y++) for (auto x = 0; x < F.cols; x++) {
             auto X = x;
