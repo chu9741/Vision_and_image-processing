@@ -89,8 +89,3 @@ int main(int argc, const char *argv[])
     return 0;
 }
 
-// Multi-band blending을 구현
-//두 개의 영상(apple, orange)를 mask 영상을 이용하여 blending 합니다.
-//mask영상의 흰 색은 apple을 사용할 부분, 검은색은 orange를 사용하는 부분입니다.
-//pyramid의 깊이는 적당한 그림이 나올때 까지 조절해 보시기 바랍니다./
-//제출은 source code 만 합니다.
